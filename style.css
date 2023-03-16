@@ -1,0 +1,163 @@
+.container{
+    
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid green;
+    height: 1500px;
+    margin: 0;
+    width: 100%;
+}
+.child{
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30px; left: 50px;
+}
+.new{
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    top: 40px; left: 290px;
+}
+.newa{
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 25px;
+    width: 350px;
+    height: 120px;
+    text-align: center;
+    position: absolute;
+    top: 30px; right: 200px;
+}
+/* .character{   
+} */
+.charactera{
+    text-align: center;
+    color: red;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+
+    background-color: white;
+    border: 5px solid red;
+    border-style: dashed;
+    height: 600px;
+    width: 350px;
+    position: absolute;
+    top: 200px; right: 350px;
+}
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: green;
+    height: 318px;
+    width: 318px;
+    position: absolute;
+    top: 350px; left: 200px;
+}
+.containt{
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.menu{
+    text-align: center;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 25px;
+    width: 330px;
+    height: 65px;
+    position: absolute;
+    top: 850px;
+    right: 600px;
+}
+.manua{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.hr{
+    position: relative;
+    top: 950px;
+}
+/* .parents{
+    display: flex;
+    background-color: green;
+    border: 5px solid red;
+    border-radius: 25px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    color: blue;
+    position: relative;
+    top: 950px;
+} */
+.parents{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    position: relative;
+    top: 1000px;
+    left: 100px;
+    margin: 15px;
+    gap: 40px;
+}
+.child1{
+    border-radius: 25px;
+    border: 5px solid green;
+    width: 28%;
+    background-color: DodgerBlue;
+    text-align: center;
+}
+.child2{
+    border-radius: 25px;
+    border: 5px solid green;
+    width: 28%;
+    background-color: DodgerBlue;
+    text-align: center; 
+}
+.child3{
+    border-radius: 25px;
+    border: 5px solid green;
+    width: 28%;
+    background-color: DodgerBlue;
+    text-align: center;
+}
+.child4{
+    border-radius: 25px;
+    border: 5px solid green;
+    width: 28%;
+    background-color: DodgerBlue;
+    text-align: center;
+}
+.child5{
+    border-radius: 25px;
+    border: 5px solid green;
+    width: 28%;
+    background-color: DodgerBlue;
+    text-align: center;
+}
+.child6{
+    border-radius: 25px;
+    border: 5px solid green;
+    width: 28%;
+    background-color: DodgerBlue;
+    text-align: center;
+}
